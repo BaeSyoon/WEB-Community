@@ -19,12 +19,7 @@ $user_name = $_SESSION['user_name'];
 <body>
     <h1>Main Page</h1>
     <p>
-        Welcome, <?php echo htmlspecialchars($user_name, ENT_QUOTES, 'UTF-8'); ?>
-    </p>
-
-    <p>
-        ID:
-        <?php echo htmlspecialchars($user_id, ENT_QUOTES, 'UTF-8'); ?>
+        Welcome, <?php echo "$user_name ($user_id)"; ?>
     </p>
     <a href="logout.php">Log out</a>
 </body>

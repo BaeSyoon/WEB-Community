@@ -1,6 +1,5 @@
 <?php
-
-$config = require_once __DIR__ . '/config.php'; // __DIR__ : 현재 디렉토리
+$config = require_once __DIR__ . '/../config.php';
 
 // config 파일에서 정보 가져옴
 $db_host = $config['db_host'];
