@@ -1,4 +1,5 @@
 <?php
+
 $config = require_once __DIR__ . '/config.php'; // __DIR__ : 현재 디렉토리
 
 // config 파일에서 정보 가져옴
