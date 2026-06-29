@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 session_start();
 
 // db.php 파일을 불러와서 $pdo 객체를 사용. __DIR__은 현재 php 파일이 있는 디렉토리(.)- 현재 파일 경로를 기준으로 db.php를 찾음

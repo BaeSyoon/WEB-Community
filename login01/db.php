@@ -1,11 +1,11 @@
 <?php
-$config = require __DIR__ . '/config.php'; // __DIR__ : 현재 디렉토리
+$config = require_once __DIR__ . '/config.php'; // __DIR__ : 현재 디렉토리
 
 // config 파일에서 정보 가져옴
-$host = $config['db_host'];
-$dbname = $config['db_name'];
-$dbuser = $config['db_user'];
-$dbpass = $config['db_pass'];
+$db_host = $config['db_host'];
+$db_name = $config['db_name'];
+$db_user = $config['db_user'];
+$db_pass = $config['db_pass'];
 $charset = $config['db_charset'];
 
 // mysqli_connect() 방식
